@@ -3,7 +3,7 @@
     <div class="text-center pt-8 text-3xl mb-14">Gallery</div>
 
     <ul
-      class="flex flex-row max-w-xl mx-auto space-x-16 items-center text-center"
+      class="flex flex-col md:flex-row max-w-xl mx-auto space-y-12 md:space-y-0 md:space-x-12 items-center text-center justify-center "
     >
       <li class="cursor-pointer hover:text-gray-600 active" @click="setActive">
         All
